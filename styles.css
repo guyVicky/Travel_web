@@ -55,9 +55,17 @@ body {
     text-align: justify;
 }
 
+.content_img{
+    float: right;
+    width: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 4px;
+}
+
 .grid {
-    margin-left: 85px;
-    margin-right: 25px;
+    margin-left: 55px;
+    margin-right: 10px;
     display: grid;
     grid-auto-rows: auto;
     grid-template-columns: repeat(3,auto);
@@ -86,6 +94,54 @@ body {
 
 .card:hover
 {
-    width: 370px;
-    transition-duration: 0.7s;
+    width: 360px;
+    transition-duration: 0.3s;
+}
+
+.footer{
+    margin-top: 200px;
+    background-color: #333333;
+    color: #dedede;
+}
+
+.menu{
+    margin-bottom: 0px;
+}
+
+.menu ul{
+    list-style-type: none;
+    text-align: center;
+    padding-right:38px;
+    padding-top: 8px;
+    margin-bottom: 0px;
+}
+
+.menu ul a{
+    text-decoration: none;
+    color:#eee;
+    text-align: center;
+}
+
+.menu ul a:hover{
+    text-decoration: underline;
+}
+
+.copyrights{
+    background-color: #111111;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 18px;
+    border-top: 5px white;
+}
+
+.copyrights span{
+    font-size: 9px;
+}
+
+.copyrights img{
+    margin-top: 10px;;
+    width: 35px;
+}
+.copyrights hr{
+    max-width: 400px;
 }
